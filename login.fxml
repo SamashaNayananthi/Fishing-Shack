@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="307.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Customer">
+   <children>
+      <Label layoutX="120.0" layoutY="40.0" text="Log in to continue : " textFill="#2e10da">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="77.0" layoutY="110.0" text="User name : ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="200.0" text="Password : ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="loginPassword" layoutX="185.0" layoutY="200.0" promptText="Enter you're password" />
+      <TextField fx:id="username" layoutX="185.0" layoutY="110.0" promptText="Enter you're username" />
+      <Button layoutX="297.0" layoutY="260.0" mnemonicParsing="false" onAction="#verify" prefHeight="31.0" prefWidth="83.0" text="Log In" textFill="#121ddd">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="77.0" layoutY="145.0" text="Enter you're mail address as you're username" />
+   </children>
+</AnchorPane>

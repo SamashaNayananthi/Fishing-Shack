@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Screen1">
+   <children>
+      <Button layoutX="213.0" layoutY="155.0" mnemonicParsing="false" onAction="#changetoRegister" prefHeight="37.0" prefWidth="94.0" text="Register" textFill="#0f13ff">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="254.0" mnemonicParsing="false" onAction="#changetoLogin" prefHeight="37.0" prefWidth="94.0" text="Login" textFill="#3721ff">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="338.0" layoutY="375.0" mnemonicParsing="false" onAction="#changetoOwnerLogin" text="Owner" textFill="#1b0ffc" />
+      <Label layoutX="119.0" layoutY="25.0" text="Welcome to Jeff's Fishing Shack" textFill="#441fd7">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="126.0" text="To register for our online service please click the button">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="224.0" text="If u already have an account login her">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="335.0" text="Login as  a staff">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="433.0" layoutY="375.0" mnemonicParsing="false" onAction="#changetoStaffLogin" prefHeight="25.0" prefWidth="51.0" text="Staff" textFill="#2f0cf2" />
+      <Label layoutX="172.0" layoutY="63.0" prefHeight="20.0" prefWidth="175.0" text="Buy the best fishing goods here" textFill="#260eed" />
+   </children>
+</AnchorPane>

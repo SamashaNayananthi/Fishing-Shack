@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="516.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Customer">
+   <children>
+      <Label layoutX="155.0" layoutY="30.0" text="Registration Form" textFill="#211eff">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="108.0" text="First name : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fname" layoutX="220.0" layoutY="106.0" promptText="Enter you're first name" />
+      <Label layoutX="80.0" layoutY="160.0" text="Last name : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lname" layoutX="220.0" layoutY="158.0" promptText="Enter you're last name" />
+      <Label layoutX="80.0" layoutY="215.0" text="Address : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="add" layoutX="220.0" layoutY="213.0" prefHeight="25.0" prefWidth="225.0" promptText="Enter you're address" />
+      <Label layoutX="80.0" layoutY="265.0" text="Email Address : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="295.0" text="You're email address will be the username of you're account" />
+      <TextField fx:id="mail" layoutX="220.0" layoutY="265.0" promptText="Enter you're Email" />
+      <Label layoutX="80.0" layoutY="343.0" text="Set a password : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="220.0" layoutY="341.0" promptText="Enter you're password" />
+      <Button layoutX="343.0" layoutY="443.0" mnemonicParsing="false" onAction="#registration" prefHeight="29.0" prefWidth="79.0" text="Submit" textFill="#5122eb">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

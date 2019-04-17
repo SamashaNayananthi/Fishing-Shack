@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="401.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LogFile">
+   <children>
+      <Label layoutX="194.0" layoutY="26.0" text="Enter the customer name" textFill="#0d17da">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="88.0" text="First name : ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="90.0" text="Last name :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fname" layoutX="151.0" layoutY="88.0" promptText="First name" />
+      <TextField fx:id="lname" layoutX="422.0" layoutY="88.0" promptText="Last name " />
+      <Button layoutX="274.0" layoutY="136.0" mnemonicParsing="false" onAction="#customerPurchases" prefHeight="25.0" prefWidth="57.0" text="Show" textFill="#0a24e8">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="highest" layoutX="57.0" layoutY="184.0" prefHeight="40.0" prefWidth="520.0" />
+      <Label fx:id="labelCustomer" layoutX="57.0" layoutY="268.0" prefHeight="115.0" prefWidth="520.0" />
+   </children>
+</AnchorPane>
